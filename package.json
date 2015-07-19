@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.3",
+    "gulp-watch-less": "^1.0.1"
+  }
+}

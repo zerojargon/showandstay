@@ -1,0 +1,11 @@
+<article masonry infinite-scroll="PhotosCtrl.incrementPage()" infinite-scroll-distance="3">
+	<div class="col-md-4 col-sm-6 col-xs-6 masonry-brick" ng-repeat="photo in PhotosCtrl.photos.photos" ui-sref="flickr.search.view({id: photo.id})">
+		<header>
+			<h3>{{photo.title}}</h3>
+		</header>
+		<img src="https://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg">
+		<footer class="text-right">
+			<small>by {{photo.ownername}}</small>
+		</footer>
+	</div>
+</article>

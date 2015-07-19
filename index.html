@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="/"></base>
+        <title>Show & Stay</title>
+
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" href="assets/css/app.css">
+    </head>
+    <body>
+        <header id="header-primary">
+            <img class="logo" src="assets/img/base/sas-logo.png">
+            <nav>
+                <ul class="primary-nav">
+                    <a href="#"><li class="active">Theatre Breaks</li></a>
+                    <a href="#"><li>Inspire Me</li></a>
+                    <a href="#"><li>Top Shows</li></a>
+                    <a href="#"><li>Deals</li></a>
+                    <a href="#"><li>Rail / Train</li></a>
+                </ul>
+                <ul class="secondary-nav">
+                </ul>
+            </nav>
+        </header>
+        <div id="filter">
+            <form class="container form-horizontal">
+                <div class="input row">
+                    <div class="form-group col-md-6">
+                        <label for="show" class="col-md-3 col-sm-4 col-xs-4 control-label"><i class="material-icons">&#xE903;</i> Show</label>
+                        <div class="col-md-9 col-sm-8 col-xs-8">
+                            <select class="form-control" id="show">
+                              <option selected>All Shows</option>
+                              <option>Charlie and the Chocolate Factory</option>
+                              <option>Jersey Boys</option>
+                              <option>Les Miserables</option>
+                              <option>Mamma Mia</option>
+                              <option>The Lion King</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="date" class="col-md-3 col-sm-4 col-xs-4 control-label"><i class="material-icons">&#xE878;</i> Date</label>
+                        <div class="col-md-9 col-sm-8 col-xs-8">
+                            <input id="date" class="form-control" type="text" placeholder="Any Time">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <main class="main container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <section class="card">
+                        <figure data-id="1" data-bg="http://i.imgur.com/1iKoFi6.gif">
+                            <img src="assets/img/shows/the-lion-king-poster.jpg" alt="The Lion King poster">
+                        </figure>
+                        <header>
+                            <a href="#"><h1>The Lion King</h1></a>
+                        </header>
+                        <div class="card-content">
+                            <p class="excerpt">The Pride Lands brought dazzlingly to life as never before.</p>
+                        </div>
+                        <footer>
+                            <h5>Theatre Breaks from <strong>£63 p/p</strong><i class="material-icons">&#xE315;</i></h5>
+                        </footer>
+                    </section>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <section class="card">
+                        <figure data-id="2" data-bg="http://i.imgur.com/WNSMcyO.gif">
+                            <img src="assets/img/shows/les-miserables-poster.jpg" alt="Les Miserables poster">
+                        </figure>
+                        <header>
+                            <a href="#"><h1>Les Miserables</h1></a>
+                        </header>
+                        <div class="card-content">
+                            <p class="excerpt">Viva la revolution! Passion & power in 19th century France.</p>
+                        </div>
+                        <footer>
+                            <h5>Theatre Breaks from <strong>£99 p/p</strong><i class="material-icons">&#xE315;</i></h5>
+                        </footer>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <section class="card">
+                        <figure data-id="3" data-bg="http://i.imgur.com/JnvsEXl.gif">
+                            <img src="assets/img/shows/charlie-and-the-chocolate-factory-poster.jpg" alt="Charlie and the Chocolate Factory poster">
+                        </figure>
+                        <header>
+                            <a href="#"><h1>Charlie and the Chocolate Factory</h1></a>
+                        </header>
+                        <div class="card-content">
+                            <p class="excerpt">Sam Mendes directs this new version of Roald Dahl's classic.</p>
+                        </div>
+                        <footer>
+                            <h5>Theatre Breaks from <strong>£107 p/p</strong><i class="material-icons">&#xE315;</i></h5>
+                        </footer>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <section class="card">
+                        <figure data-id="4" data-bg="http://i.imgur.com/wwqdYtP.gif">
+                            <img src="assets/img/shows/jersey-boys-poster.jpg" alt="Jersey Boys poster">
+                        </figure>
+                        <header>
+                            <a href="#"><h1>Jersey Boys</h1></a>
+                        </header>
+                        <div class="card-content">
+                            <p class="excerpt">The toe-tapping Four Seasons go from rags to riches.</p>
+                        </div>
+                        <footer>
+                            <h5>Theatre Breaks from <strong>£83 p/p</strong><i class="material-icons">&#xE315;</i></h5>
+                        </footer>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <section class="card">
+                        <figure data-id="5" data-bg="http://i.imgur.com/ZmHmnFR.gif">
+                            <img src="assets/img/shows/mamma-mia-poster.jpg" alt="Mamma Mia poster">
+                        </figure>
+                        <header>
+                            <a href="#"><h1>Mamma Mia</h1></a>
+                        </header>
+                        <div class="card-content">
+                            <p class="excerpt">Friendship, true love and ABBA's hits on a Greek island.</p>
+                        </div>
+                        <footer>
+                            <h5>Theatre Breaks from <strong>77 p/p</strong><i class="material-icons">&#xE315;</i></h5>
+                        </footer>
+                    </section>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <section class="card">
+                        <div class="cta text-center">
+                            <h1>view more</h1>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <nav id="help-nav" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 help-section"><a href="#"><i class="material-icons">&#xE8AF;</i> <strong>Live Chat</strong></a></div>
+                <div class="col-sm-4 help-section"><a href="#"><i class="material-icons">&#xE0CD;</i><strong>Freephone</strong> 0800 0832 841 </a></div>
+                <div class="col-sm-4 help-section"><a href="#"><i class="material-icons">&#xE0BE;</i><strong>Email Us</strong> </a></div>
+            </div>
+        </nav>
+
+        <footer id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 column">
+                    <h1>Why we're recommended to friends</h1>
+                    <p><strong>At Show & Stay whilst we specialise in Theatre Breaks we're proud to be part of the Holiday Extras family.</strong> Established in 1983, Holiday Extras supply ancillary airport and holiday products to over <strong>6.8 million customers every year</strong> - the mission is to make holidays hassle free and deliver the very best customer service. Show & Stay is totally committed to the Holiday Extras's principles of creativity and innovation to bring you the best products and at the very best prices.</p>
+                    <p><strong>Since we started in 2004 we've looked after the London theatre arrangements for over 300,000 customers.</strong> We understand what it takes to deliver an unforgettable theatre break, so all our products are inspected, reviewed, slept in, watched and eaten on a regular basis. We'll only ever give you the best. But don't just take our word for it - <strong>our customers rate their Show & Stay service and experience 5.0 out of 5 based on 232 reviews</strong>.</p>
+                </div>
+                <div class="col-md-7 hidden-xs column text-right">
+                    <div class="affLogo times"></div>
+                    <div class="affLogo top50"></div>
+                    <div class="affLogo hx"></div>
+                    <div class="affLogo starLogo"></div>
+                    <br />
+                    <div class="affLogo sun"></div>
+                    <div class="affLogo marie"></div>
+                    <div class="affLogo guardian"></div>
+                    <div class="affLogo independent"></div>
+                </div>
+            </div>
+            <nav class="row">
+                <ul>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">Terms</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">Privacy</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">FAQs</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">About Us</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">Contact Us</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">Affiliates</a></li>
+                    <li class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><a href="#">Site Map</a></li>
+                </ul>
+                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-12 copyright text-right">© 2015 Show & Stay. Part of the <a href="#">Holiday Extras</a> family.</div>
+            </nav>
+        </footer>
+
+        <script src="assets/scripts/vendor/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="assets/scripts/vendor/bower_components/pickadate/lib/picker.js"></script>
+        <script src="assets/scripts/vendor/bower_components/pickadate/lib/picker.date.js"></script>
+        <script>
+            $(document).ready(function() {
+                // function to take data-url of gif from a card's figure, and play this. Fade out poster into gif.
+                var gifBG = function(id) {
+                    o = $('.card figure[data-id='+id+']');
+                    bg = o.attr('data-bg');
+                    o.css('background', 'url('+bg+') center no-repeat').css('background-size', 'cover');
+                    o.children('img').css('opacity',0);
+                }
+
+                // function to stop all cards from playing gifs
+                var gifBGStop = function() {
+                    $('.card figure').css('background-image', 'none').children('img').css('opacity','1');
+                }
+
+                // generic function for scroll events to run, to implement a polling rate for firing scroll events
+                function debounce(func, wait, immediate) {
+                    var timeout;
+                    return function() {
+                        var context = this, args = arguments;
+                        var later = function() {
+                            timeout = null;
+                            if (!immediate) func.apply(context, args);
+                        };
+                        var callNow = immediate && !timeout;
+                        clearTimeout(timeout);
+                        timeout = setTimeout(later, wait);
+                        if (callNow) func.apply(context, args);
+                    };
+                };
+
+                // function to check whether Filter should be fixed or anchored below header
+                var checkStickyFilter = debounce(function() {
+                    if($(window).scrollTop() > $('#header-primary').height()) {
+                        $('#filter').addClass('fixed');
+                    } else {
+                        $('#filter').removeClass('fixed');
+                    }
+                }, 50);
+
+                // function to check whether Help should be fixed or anchored above footer
+                var checkStickyHelp = debounce(function() {
+                    if(($(window).scrollTop() + window.innerHeight) > ($(document).height() - $('#footer').height())) {
+                        $('#help-nav').addClass('static');
+                    } else {
+                        $('#help-nav').removeClass('static');
+                    }
+                }, 50);
+
+                // trigger gif playing on hover of card. Ideally in production this would use html5 videos instead, which are MUCH more bandwidth efficient
+                $('.card').hover(function() {
+                    gifBGStop();
+                    o = $(this).children('figure').attr('data-id');
+                    gifBG(o);
+                },
+                function() {
+                    gifBGStop();
+                });
+
+                // trigger page load functions
+                $('#date').pickadate()
+                window.addEventListener("scroll", checkStickyFilter);
+                window.addEventListener("scroll", checkStickyHelp);
+                checkStickyFilter();
+                checkStickyHelp();
+            });
+        </script>
+    </body>
+</html>

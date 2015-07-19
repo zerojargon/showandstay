@@ -1,0 +1,8 @@
+{
+  "name": "My Show and Stay Application",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap-less": "~3.3.4",
+    "pickadate": "~3.5.6"
+  }
+}
